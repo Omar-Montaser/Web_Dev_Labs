@@ -1,0 +1,85 @@
+.feature-wrapper {
+    padding: 40px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.feature-banner {
+  background-color: #2d2f31;
+  color: white;
+  display: flex;
+  max-width: 1340px;
+  width: 100%;
+  overflow: hidden;
+  /* Makes it look like the dark card in screenshot */
+}
+
+.feature-content {
+  padding: 48px;
+  flex: 1;
+}
+
+.feature-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.feature-content p {
+  font-size: 18px;
+  margin-bottom: 24px;
+  line-height: 1.4;
+}
+
+.feature-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.feature-item {
+  font-size: 16px;
+}
+
+.feature-btn {
+  background-color: white;
+  color: #2d2f31;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.feature-btn:hover {
+    background-color: #f7f9fa;
+}
+
+.feature-sub {
+  font-size: 12px;
+  color: #d1d7dc;
+}
+
+.feature-image-section {
+  flex: 1;
+  position: relative;
+}
+
+.feature-image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .feature-banner {
+        flex-direction: column;
+    }
+    .feature-features {
+        grid-template-columns: 1fr;
+    }
+}

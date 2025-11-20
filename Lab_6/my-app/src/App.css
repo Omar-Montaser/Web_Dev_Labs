@@ -1,0 +1,11 @@
+/* src/App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'udemy sans', -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+  color: #2d2f31;
+}
